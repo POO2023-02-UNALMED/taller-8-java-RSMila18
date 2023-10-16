@@ -17,7 +17,6 @@ public class Jugador extends Futbolista{
 		this.dorsal = dorsal;
 	}
 	
-	
 	public String toString(){
         return 
          super.toString()+" con el dorsal "+this.dorsal+ ". Ha marcado "+this.golesMarcados;
